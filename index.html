@@ -7,7 +7,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
     </style>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>TO-DO App</title>
 </head>
@@ -16,11 +16,15 @@
     <div class="container">
         <div class="todo-app">
             <h1>TO-DO App</h1>
-            <form class="input-area">
-                <input type="text" id="text input" placeholder="Add a new task ">
-            </form>
-            <div class="todos-container">
-                <ul id="task-list"></ul>
+<div class="line">
+            <input type="text"  id="textinput" placeholder="Add a new task ">
+            <button class="button" onclick="AddElement()"><i class="fa-solid fa-plus"></i></button>
+            <button class="button" onclick="ClearAll()"><i class="fa-solid fa-trash"></i></button>
+</div>
+            <div class="todoslist">
+                <ul id="tasklist">
+
+                </ul>
             </div>
         </div>
     </div>

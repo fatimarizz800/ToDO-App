@@ -96,10 +96,38 @@ body {
 .todos-container {
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
-.task-list{
-    width: 100px;
-    
 
+.task-list {
+    width: 100px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    margin-left: 10px;
+    background-color: aliceblue;
+}
+
+#textinput ,.button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+ 
+.litext{
+    list-style: none;
+    color: black;
+    font-size: 15px;
+}
+.edit,.Delete{
+   padding: 5px;
+    border-radius: 5px;
+    border: none;
+      margin-left: 10px;
+    background-color: aliceblue;
 }
